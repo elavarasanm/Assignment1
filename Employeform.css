@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+    height: 750px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.container{
+	left: 60%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+.label{
+	  margin-left: 0%;
+	padding: 50px 130px;
+	font-size: 30px;
+	font-weight: bold;
+	color: Orange;
+	font-weight: 50;
+   
+}
+.loginform{
+	padding: 0px 40px ;
+   
+}
+.loginform .font{
+	font-size: 18px;
+	color:yellow;
+    text-align: left;
+}
+.loginform .font a{
+	   margin-left: 0%;
+        margin-right:15%;
+        width: 70%;
+}
+
+.loginform input{
+	height: 35px;
+	width:  320px;
+	padding: 0px 0px 0px 4px;
+	font-size: 15px;
+	 border-radius: 7px;
+	outline: none;
+	border: 1px solid silver;
+	  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+.loginform button{
+	margin: 45px 0 30px 90px;
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background:white;
+	border-radius: 20px;
+	transition: .5s;
+	
+  
+}
+.loginform button:hover{
+	background:darkblue ;
+}
+.container p{
+	font-size: 20px;
+    color:black ;
+    text-align: center;
+    text-shadow: 0 1px #2a85a1;
+    font-weight:bold;
+    padding: 0px 0px px 10px;
+}
+
+}
+ h5{
+   margin-left: 25%;
+	padding: 50px 600px;
+	font-size: 30px;
+	font-weight: bold;
+	color:red;
+   
+}
+
